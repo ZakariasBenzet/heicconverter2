@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LiveHEIC Converter</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script type="module" src="./index.tsx"></script>
     <script src="https://cdn.jsdelivr.net/npm/heic2any@1.1.0/dist/heic2any.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -28,5 +27,7 @@
 </head>
 <body>
     <div id="root"></div>
+    <!-- Explicitly load the entry point using a relative path for GitHub Pages support -->
+    <script type="module" src="./index.tsx"></script>
 </body>
 </html>

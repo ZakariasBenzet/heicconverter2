@@ -1,5 +1,5 @@
 {
-  "name": "Copy of LiveHEIC Converter",
+  "name": "LiveHEIC Converter",
   "description": "A high-performance web tool to convert iPhone HEIC photos to JPGs and extract videos from Live Photos, all processed locally in your browser for maximum privacy.",
   "requestFramePermissions": []
 }
